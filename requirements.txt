@@ -1,0 +1,4 @@
+flaskwebgui
+flask
+requests
+flask-cors
