@@ -2,3 +2,4 @@ flaskwebgui
 flask
 requests
 flask-cors
+pywin32

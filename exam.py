@@ -1,3 +1,9 @@
+import win32gui, win32con
+
+hiden = win32gui.GetForegroundWindow()
+win32gui.ShowWindow(hiden, win32con.SW_HIDE)
+
+
 from flask import Flask  
 from flask import render_template, redirect
 from flask_cors import CORS
